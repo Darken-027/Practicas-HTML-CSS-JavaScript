@@ -13,15 +13,20 @@
         <form action="resultados.html" method="GET">
             <div>
             <label for="nombreUsuario">Nombre de usuario</label>
-            <input name="nombreusuario" type="text" id="nombreUsuario" />
+            <input name="nombreusuario" type="text" id="nombreUsuario" required/>
             </div>
-            <label for="">Comentarios</label>
-            <textarea name="" id=""></textarea>
+            <br>
             <div>
-            <label for="password">Contraseña</label>
-            <input name="password" type="password" id="password" />
+                <label for="comentarios">Comentarios</label>
+                <textarea name="comentarios" id="comentarios" required></textarea>
             </div>
-            <button>Enviar</button>
+            <br>
+            <div>
+                <label for="password">Contraseña</label>
+                <input name="password" type="password" id="password" required/>
+            </div>
+            <button type="reset">Reset</button>
+            <button type="submit">Enviar</button>
         </form>
         </div>
     </body>
