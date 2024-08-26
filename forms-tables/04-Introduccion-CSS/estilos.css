@@ -16,3 +16,12 @@ p{
     color: chartreuse;
 
 }
+
+.terceraNoticia{
+    font-size: 50;
+    text-transform: uppercase;
+}
+
+.autor, .ubicacion, .fecha{
+    text-decoration: underline;
+}
