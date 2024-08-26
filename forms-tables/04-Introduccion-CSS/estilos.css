@@ -5,5 +5,14 @@ h1{
 /*Estoy provando colores y fuentes*/
 p{
     color: aquamarine;
-    font-size: 50pt;
+    font-size: 16pt;
+}
+
+#primeraNoticia{
+    color: green;
+    font-size: 12pt;
+}
+#segundaNoticia{
+    color: chartreuse;
+
 }
