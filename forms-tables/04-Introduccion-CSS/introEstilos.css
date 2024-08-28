@@ -1,3 +1,10 @@
 .colores{
     color: blueviolet;
 }
+
+.color-rgb{
+    color: rgb(233, 133, 7);
+}
+.color-rgba{
+    color: rgba(20, 59, 51, 0.2);
+}
