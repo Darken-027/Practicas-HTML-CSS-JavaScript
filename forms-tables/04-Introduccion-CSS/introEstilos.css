@@ -21,6 +21,12 @@
 }
 .altura{
     background-color: aquamarine;
-    height: 500px;
-    width: 300;
+    height: 200px;
+}
+.tarjeta{
+    border-style: solid;
+    border-color: rgb(1, 187, 78);
+    border-width: 1px;
+    /*border-top: 1px;*/
+    
 }
