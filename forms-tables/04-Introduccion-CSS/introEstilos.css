@@ -16,5 +16,11 @@
 }
 
 .ancho{
-    
+    background-color: blanchedalmond;
+    width: 100px;
+}
+.altura{
+    background-color: aquamarine;
+    height: 500px;
+    width: 300;
 }
