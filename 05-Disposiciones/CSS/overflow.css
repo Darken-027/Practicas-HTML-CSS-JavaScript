@@ -1,0 +1,13 @@
+.contenedor-hiden{
+    background-color: bisque;
+    width: 300px;
+    height: 100px;
+    overflow: hidden;
+}
+.contenedor-scroll{
+    margin: 10px 0px;
+    background-color: bisque;
+    width: 300px;
+    height: 100px;
+    overflow: hidden;
+}
