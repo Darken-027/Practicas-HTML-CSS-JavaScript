@@ -1,7 +1,9 @@
 .flex {
-    /* display flex */
+    display: flex;
     background-color: yellow;
     height: 300px;
+    justify-content: space-between;
+    align-items: stretch;
 }
 
 .contenido-1 {
