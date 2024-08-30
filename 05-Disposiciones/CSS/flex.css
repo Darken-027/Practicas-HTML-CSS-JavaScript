@@ -1,0 +1,24 @@
+.flex {
+    /* display flex */
+    background-color: yellow;
+    height: 300px;
+}
+
+.contenido-1 {
+    background-color: white;
+    height: 200px;
+    width: 100px;
+    border: 1px solid red;
+}
+.contenido-2 {
+    background-color: white;
+    height: 200px;
+    width: 100px;
+    border: 1px solid red;
+}
+.contenido-3 {
+    background-color: white;
+    height: 200px;
+    width: 100px;
+    border: 1px solid red;
+}
