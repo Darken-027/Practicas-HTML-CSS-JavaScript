@@ -6,6 +6,12 @@
     gap: 20px;
 }
 
+.bottons {
+    align-self: flex-start;
+    display: flex;
+    gap: 20px;
+}
+
 .google-btn {
     background-color: #1A73e8;
     border: none;
@@ -14,17 +20,84 @@
     display: flex;
     align-items: center;
     padding: 2px;
+    cursor: pointer;
+}
+
+.google-btn :hover {
+    opacity: 0.75;
 }
 
 .google-btn picture {
-    width: 36px;
-    height: 36px;
+    width: 35px;
+    height: 35px;
     background-color: white;
     border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.google-btn picture img {
+    width: 75%;
 }
 
 .google-btn span {
     color: white;
-    padding: 15px;
     font-weight: 500;
+    padding: 15px;
 }
+
+.twitter-btn {
+    color: #ccc;
+    background-color: #eee;
+    border: none;
+    width: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.twitter-btn:hover {
+    background-color: gray;
+}
+
+.separador {
+    display: flex;
+    width: 100%;
+    gap: 15px;
+}
+
+.separador hr {
+    flex-grow: 1;
+    border: none;
+    border-top: 1px solid #ccc;
+}
+
+.separador span {
+    color:#8b8b8b;
+}
+
+.section-inpts {
+    display: flex;
+}
+
+label {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
