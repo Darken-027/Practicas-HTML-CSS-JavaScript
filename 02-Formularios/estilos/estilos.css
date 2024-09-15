@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.google-btn {
+    background-color: #1A73e8;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+}
+
+.google-btn picture {
+    width: 36px;
+    height: 36px;
+    background-color: white;
+    border-radius: 2px;
+}
+
+.google-btn span {
+    color: white;
+    padding: 15px;
+    font-weight: 500;
+}

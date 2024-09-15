@@ -9,5 +9,26 @@
     background-color: bisque;
     width: 300px;
     height: 100px;
+    overflow: scroll;
+
+}
+
+.contenedor-visible{
+    margin: 10px 0px;
+    background-color: bisque;
+    width: 300px;
+    height: 100px;
     overflow: hidden;
+    padding: 15px;
+    overflow:  visble;
+}
+
+.contenedor-auto{
+    margin: 10px 0px;
+    background-color: bisque;
+    width: 300px;
+    height: 100px;
+    overflow: hidden;
+    padding: 15px;
+    overflow:  visble;
 }
