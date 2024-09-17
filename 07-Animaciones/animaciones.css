@@ -1,0 +1,15 @@
+.padre {
+    width: 400px;
+    height: 400px;
+    background-color: lightpink;
+}
+
+.hijo {
+    width: 50%;
+    height: 50%;
+    background-color: dimgray;
+}
+
+.padre:hover .hijo {
+    transform: translateX(100%);
+}
