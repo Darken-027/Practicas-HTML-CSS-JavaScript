@@ -7,9 +7,20 @@
 .hijo {
     width: 50%;
     height: 50%;
-    background-color: dimgray;
+    background-color: rgb(248, 248, 248);
 }
 
 .padre:hover .hijo {
-    transform: translateX(100%);
+    /* transform: translateX(100%);
+    background-color: rgb(160, 48, 48); */
+    animation: traslacion 1s;
+}
+
+@keyframes traslacion {
+    0% {
+        background-color: rgb(165, 42, 144);
+    }
+    100% {
+        background-color: darkgoldenrod;
+    }
 }
