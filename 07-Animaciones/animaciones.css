@@ -13,7 +13,7 @@
 .padre:hover .hijo {
     /* transform: translateX(100%);
     background-color: rgb(160, 48, 48); */
-    animation: traslacion 1s;
+    animation: traslacion 1s forwards;
 }
 
 @keyframes traslacion {
