@@ -4,6 +4,8 @@
     display: flex;
     gap: 0.5rem;
     /* height: 5rem; */
+    align-items: center;
+    flex-direction: column;
 }
 
 .item {
