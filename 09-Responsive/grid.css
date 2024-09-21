@@ -1,5 +1,7 @@
 .contenedor {
     display: grid;
+    
+    row-gap: 0.1rem;
     gap: 0.5rem;
     grid-template-columns: auto auto auto;
 }
