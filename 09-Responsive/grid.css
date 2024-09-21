@@ -1,0 +1,12 @@
+.contenedor {
+    display: grid;
+    gap: 0.5rem;
+    grid-template-columns: auto auto auto;
+}
+
+.item {
+    background-color: aquamarine;
+    padding: 0.25rem;
+    font-size: 2rem;
+    border: solid blue;
+}
