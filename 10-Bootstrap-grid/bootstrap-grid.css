@@ -1,0 +1,30 @@
+.row div {
+    margin: 0.25rem;
+}
+.col {
+    background-color: springgreen;
+}
+
+.col-xs{
+    background-color: rgb(58, 155, 158);
+}
+
+.col-sm{
+    background-color: rgb(82, 182, 104);
+}
+
+.col-md{
+    background-color: rgb(195, 218, 65);
+}
+
+.col-lg{
+    background-color: rgb(189, 60, 206);
+}
+
+.col-xl{
+    background-color: rgb(214, 72, 72);
+}
+
+.col-xxl{
+    background-color: rgb(69, 192, 32);
+}
