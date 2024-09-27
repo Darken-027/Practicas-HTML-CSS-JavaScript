@@ -3,4 +3,23 @@
   Color del texto gris: hsl(227, 10%, 46%)
  */ 
 
- 
+ body {
+  background-color: hsl(185, 75%, 39%);
+  font-family: sans-serif;
+  font-size: 1.3rem;
+  overflow: hidden;
+ }
+
+ .bg-image {
+  position: absolute;
+ }
+
+ .bg-image--top{
+  top: -400px;
+  left: -100px;
+ }
+
+ .bg-image--bottom{
+  bottom: -400px;
+  right: -100px;
+ }
