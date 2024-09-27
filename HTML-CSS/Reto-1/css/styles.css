@@ -23,3 +23,20 @@
   bottom: -400px;
   right: -100px;
  }
+
+ .card{
+  position: relative;
+  top: 30vh;
+  width: 400px;
+  height: 450px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  border-radius: 20px;
+ }
+
+ .card__header {
+  position: relative;
+  height: 120px;
+  text-align: center;
+ }
