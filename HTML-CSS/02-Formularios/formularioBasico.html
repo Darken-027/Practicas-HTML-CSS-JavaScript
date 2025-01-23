@@ -1,31 +1,128 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Formulario Elegante</title>
+    <style>
+        /* Estilos globales */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        form {
+            background-color: #fff;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 500px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        li {
+            margin-bottom: 1.2rem;
+        }
+
+        label {
+            font-size: 1.1rem;
+            color: #555;
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+
+        input,
+        textarea {
+            width: 100%;
+            padding: 0.8rem;
+            font-size: 1rem;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            box-sizing: border-box;
+            background-color: #f9f9f9;
+            transition: border-color 0.3s ease;
+        }
+
+        input:focus,
+        textarea:focus {
+            border-color: #4CAF50;
+            outline: none;
+            background-color: #fff;
+        }
+
+        textarea {
+            resize: vertical;
+            min-height: 120px;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 0.8rem 1.5rem;
+            font-size: 1.1rem;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        button:active {
+            background-color: #388e3c;
+        }
+
+        /* Estilo para los campos vacíos */
+        input:invalid,
+        textarea:invalid {
+            border-color: #e74c3c;
+        }
+    </style>
 </head>
 
 <body>
-    <h1>Formulario Basico</h1>
-    <form action="/https://github.com/Darken-027" method="post">
-        <ul>
-            <li>
-                <label for="name">Nombre</label>
-                <input type="text" id="name" name="user_name">
-            </li>
-            <li>
-                <label for="mail">Correo electrónico:</label>
-                <input type="email" id="mail" name="user_mail" />
-            </li>
-            <li>
-                <label for="msg">Mensaje:</label>
-                <textarea id="msg" name="user_message">Siempre estare aqui</textarea>
-            </li>
-        </ul>
-    </form>
-
+    <div>
+        <h1>Formulario de Contacto</h1>
+        <form action="/https://github.com/Darken-027" method="post">
+            <ul>
+                <li>
+                    <label for="name">Nombre</label>
+                    <input type="text" id="name" name="user_name" required>
+                </li>
+                <li>
+                    <label for="mail">Correo electrónico</label>
+                    <input type="email" id="mail" name="user_mail" required>
+                </li>
+                <li>
+                    <label for="msg">Mensaje</label>
+                    <textarea id="msg" name="user_message" required></textarea>
+                </li>
+            </ul>
+            <button type="submit">Enviar mensaje</button>
+        </form>
+    </div>
 </body>
 
 </html>
